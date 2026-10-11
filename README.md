@@ -1,1 +1,1 @@
-Practices of the subject "Inteligencia Artificial para Videojuegos" from the University of Malaga.
+Practices from the subject "Inteligencia Artificial para Videojuegos" of the University of Malaga.
