@@ -255,5 +255,6 @@ public class Puzzle extends OverrideHashCode implements RepresentacionEstadoOpti
 		return true;
 	}
 
+
 	
 }

@@ -22,7 +22,8 @@ import mundosolitario.RepresentacionEstadoOptimizacion;
  */
 public abstract class AgenteSolitario<E extends OverrideHashCode & RepresentacionEstadoOptimizacion<E>> { 
 	public E salida;
-    
+    private int iteraciones = 0;
+
 	/**
 	 * Guarda el estado de salida.
 	 * @param e estado de salida
@@ -30,7 +31,11 @@ public abstract class AgenteSolitario<E extends OverrideHashCode & Representacio
     protected AgenteSolitario(E e){
     	this.salida = e;
     }
-    
+
+    public int getIteraciones() {
+        return iteraciones;
+    }
+
     /**
      * Comprueba la condición objetivo para el estado e.
      * @return true si el argumento es un estado objetivo, false en otro caso.

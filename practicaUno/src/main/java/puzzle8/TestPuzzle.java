@@ -11,11 +11,25 @@ public class TestPuzzle {
     
     public static void main(String[] args) {
     
-    	//testH0();
+    	// testH0();
     	
     	// testDPB();
 
-        testDescolocadas();
+        // testDescolocadas();
+
+        int[][] p1 = {
+                {3, 5, 0},
+                {6, 2, 4},
+                {7, 8, 1}
+        };
+
+        int[][] p2 = {
+                {8, 0, 7},
+                {4, 1, 6},
+                {2, 5, 3}
+        };
+
+        // acabar test...
     }
     
     public static void testH0(){
